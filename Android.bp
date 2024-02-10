@@ -2712,25 +2712,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "liba2dpoffload",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: ["proprietary/vendor/lib/liba2dpoffload.so"],
-        },
-        android_arm64: {
-            srcs: ["proprietary/vendor/lib64/liba2dpoffload.so"],
-        },
-    },
-    compile_multilib: "both",
-    check_elf_files: false,
-    prefer: true,
-    soc_specific: true,
-}
+
 
 cc_prebuilt_library_shared {
     name: "libOmxAacDec",
