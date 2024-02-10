@@ -9744,6 +9744,130 @@ cc_prebuilt_library_shared {
 
 
 
+//egl common
+
+
+cc_prebuilt_library_shared {
+    name: "libq3dtools_adreno",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/egl/libq3dtools_adreno.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/egl/libq3dtools_adreno.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "eglSubDriverAndroid",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/egl/eglSubDriverAndroid.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/egl/eglSubDriverAndroid.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libEGL_adreno",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/egl/libEGL_adreno.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/egl/libEGL_adreno.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libGLESv1_CM_adreno",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libq3dtools_esx",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/egl/libq3dtools_esx.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/egl/libq3dtools_esx.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libGLESv2_adreno",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/egl/libGLESv2_adreno.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/egl/libGLESv2_adreno.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+
 
 
 
