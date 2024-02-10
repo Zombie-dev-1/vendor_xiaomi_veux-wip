@@ -10053,5 +10053,275 @@ cc_prebuilt_library_shared {
 
 
 
+//rfsa/adsp common from lib and lib64
+
+
+cc_prebuilt_library_shared {
+    name: "libsns_device_mode_skel",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsns_low_lat_stream_skel",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+
+//soundfx common from lib and lib 64
+
+cc_prebuilt_library_shared {
+    name: "libqcbassboost",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libqcbassboost.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libqcbassboost.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libswvqe",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libswvqe.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libswvqe.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libswgamedap",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libswgamedap.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libswgamedap.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libasphere",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libasphere.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libasphere.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libqcvirt",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libqcvirt.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libqcvirt.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libqcreverb",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libqcreverb.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libqcreverb.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libswdap",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libswdap.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libswdap.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhwdap",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libhwdap.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libhwdap.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libshoebox",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libshoebox.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libshoebox.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libeffectproxy",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libeffectproxy.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libeffectproxy.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmisoundfx",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libmisoundfx.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libmisoundfx.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+
+
+
+
 
 
