@@ -4267,6 +4267,10 @@ cc_prebuilt_library_shared {
 //lib64
 
 
+
+//lib 64 folders
+
+
 // Automatically generated entry for liblocationservice.so
 cc_prebuilt_library_shared {
     name: "liblocationservice",
@@ -4275,7 +4279,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/liblocationservice.so"],
         },
     },
@@ -4293,7 +4297,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.cvp@1.0.so"],
         },
     },
@@ -4311,7 +4315,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libGPreqcancel.so"],
         },
     },
@@ -4329,7 +4333,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libperfgluelayer.so"],
         },
     },
@@ -4347,7 +4351,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.display.color@1.5.so"],
         },
     },
@@ -4365,7 +4369,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libQSEEComAPI.so"],
         },
     },
@@ -4383,7 +4387,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libC2D2.so"],
         },
     },
@@ -4401,7 +4405,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so"],
         },
     },
@@ -4419,7 +4423,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libhdr_tm.so"],
         },
     },
@@ -4437,7 +4441,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.factory@1.0.so"],
         },
     },
@@ -4455,7 +4459,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.mcx.distortionmapper.so"],
         },
     },
@@ -4473,7 +4477,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libgsl.so"],
         },
     },
@@ -4491,7 +4495,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libril-qc-ltedirectdisc.so"],
         },
     },
@@ -4509,7 +4513,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOmxQcelp13Dec.so"],
         },
     },
@@ -4527,7 +4531,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@2.0.so"],
         },
     },
@@ -4545,7 +4549,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsensorslog.so"],
         },
     },
@@ -4563,7 +4567,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libSuperSensor.so"],
         },
     },
@@ -4581,7 +4585,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.settings.mannar.so"],
         },
     },
@@ -4599,7 +4603,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so"],
         },
     },
@@ -4617,7 +4621,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/qtiwakelock.so"],
         },
     },
@@ -4635,7 +4639,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsecureui_svcsock.so"],
         },
     },
@@ -4653,7 +4657,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libnotifyaudiohal.so"],
         },
     },
@@ -4671,7 +4675,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0.so"],
         },
     },
@@ -4689,7 +4693,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libgpudataproducer.so"],
         },
     },
@@ -4707,7 +4711,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.3.so"],
         },
     },
@@ -4725,7 +4729,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libCB.so"],
         },
     },
@@ -4743,7 +4747,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.gs.kodiak.so"],
         },
     },
@@ -4761,7 +4765,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.realtimeserializer.so"],
         },
     },
@@ -4779,7 +4783,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqmi_encdec.so"],
         },
     },
@@ -4797,7 +4801,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libkcl.so"],
         },
     },
@@ -4815,7 +4819,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libloc_api_wds.so"],
         },
     },
@@ -4833,7 +4837,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsynergy_loc_api.so"],
         },
     },
@@ -4851,7 +4855,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamxfdengine.so"],
         },
     },
@@ -4869,7 +4873,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libjpege.so"],
         },
     },
@@ -4887,7 +4891,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsi.so"],
         },
     },
@@ -4905,7 +4909,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so"],
         },
     },
@@ -4923,7 +4927,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@1.2.so"],
         },
     },
@@ -4941,7 +4945,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so"],
         },
     },
@@ -4959,7 +4963,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.display.color@1.4.so"],
         },
     },
@@ -4977,7 +4981,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcneapiclient.so"],
         },
     },
@@ -4995,7 +4999,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsynx.so"],
         },
     },
@@ -5013,7 +5017,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so"],
         },
     },
@@ -5031,7 +5035,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.mcreprocrt.so"],
         },
     },
@@ -5049,7 +5053,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOmxG711Dec.so"],
         },
     },
@@ -5067,7 +5071,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libwa_dof.so"],
         },
     },
@@ -5085,7 +5089,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libstagefright_soft_qtiflacdec.so"],
         },
     },
@@ -5103,7 +5107,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/librilqmiservices.so"],
         },
     },
@@ -5121,7 +5125,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOmxAlacDec.so"],
         },
     },
@@ -5139,7 +5143,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.demux.so"],
         },
     },
@@ -5157,7 +5161,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libarcsoft_super_night_raw.so"],
         },
     },
@@ -5175,7 +5179,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so"],
         },
     },
@@ -5193,7 +5197,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libQTEEConnector_vendor.so"],
         },
     },
@@ -5211,7 +5215,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.mcx.policy.mfl.so"],
         },
     },
@@ -5229,7 +5233,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.rt.so"],
         },
     },
@@ -5247,7 +5251,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so"],
         },
     },
@@ -5265,7 +5269,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libadreno_utils.so"],
         },
     },
@@ -5283,7 +5287,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so"],
         },
     },
@@ -5301,7 +5305,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.swmf.so"],
         },
     },
@@ -5319,7 +5323,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libofflinedump.so"],
         },
     },
@@ -5337,7 +5341,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/lib-imscommon.so"],
         },
     },
@@ -5355,7 +5359,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libnetmgr_nr_fusion.so"],
         },
     },
@@ -5373,7 +5377,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcacertclient.so"],
         },
     },
@@ -5391,7 +5395,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libopencv.so"],
         },
     },
@@ -5409,7 +5413,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libnetmgr_common.so"],
         },
     },
@@ -5427,7 +5431,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libkeymasterutils.so"],
         },
     },
@@ -5445,7 +5449,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libAlacSwDec.so"],
         },
     },
@@ -5463,7 +5467,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcodec2_utils.so"],
         },
     },
@@ -5481,7 +5485,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libstagefright_soft_ddpdec.so"],
         },
     },
@@ -5499,7 +5503,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOmxWmaDec.so"],
         },
     },
@@ -5517,7 +5521,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libopestriping.so"],
         },
     },
@@ -5535,7 +5539,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.2.so"],
         },
     },
@@ -5553,7 +5557,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libconfigdb.so"],
         },
     },
@@ -5571,7 +5575,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so"],
         },
     },
@@ -5589,7 +5593,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/lib-imsdpl.so"],
         },
     },
@@ -5607,7 +5611,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so"],
         },
     },
@@ -5625,7 +5629,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqti-perfd-client.so"],
         },
     },
@@ -5643,7 +5647,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.display.color@1.0.so"],
         },
     },
@@ -5661,7 +5665,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libhdmipassthru.so"],
         },
     },
@@ -5679,7 +5683,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcapiv2svarnn.so"],
         },
     },
@@ -5697,7 +5701,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmmcamera_cac3.so"],
         },
     },
@@ -5715,7 +5719,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamximageformatutils.so"],
         },
     },
@@ -5733,7 +5737,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libgcs-osal.so"],
         },
     },
@@ -5751,7 +5755,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so"],
         },
     },
@@ -5769,7 +5773,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqmi_cci.so"],
         },
     },
@@ -5787,7 +5791,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcrildatactl.so"],
         },
     },
@@ -5805,7 +5809,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libMpeghSwEnc.so"],
         },
     },
@@ -5823,7 +5827,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcapiv2svacnn.so"],
         },
     },
@@ -5841,7 +5845,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsnsapi.so"],
         },
     },
@@ -5859,7 +5863,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libchilog.so"],
         },
     },
@@ -5877,7 +5881,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqsocket.so"],
         },
     },
@@ -5895,7 +5899,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcdfw.so"],
         },
     },
@@ -5913,7 +5917,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libVkLayer_q3dtools.so"],
         },
     },
@@ -5931,7 +5935,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmlipay.so"],
         },
     },
@@ -5949,7 +5953,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqsap_sdk.so"],
         },
     },
@@ -5967,7 +5971,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libadreno_app_profiles.so"],
         },
     },
@@ -5985,7 +5989,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.mfsr.so"],
         },
     },
@@ -6003,7 +6007,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so"],
         },
     },
@@ -6021,7 +6025,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libipebpsstriping170.so"],
         },
     },
@@ -6039,7 +6043,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@2.1.so"],
         },
     },
@@ -6057,7 +6061,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcodec2_hooks.so"],
         },
     },
@@ -6075,7 +6079,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libGPTEE_vendor.so"],
         },
     },
@@ -6093,7 +6097,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.ims.factory@1.1.so"],
         },
     },
@@ -6111,7 +6115,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.1.so"],
         },
     },
@@ -6129,7 +6133,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqmi_client_helper.so"],
         },
     },
@@ -6147,7 +6151,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/ese_client.so"],
         },
     },
@@ -6165,7 +6169,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libfastcvdsp_stub.so"],
         },
     },
@@ -6183,7 +6187,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamerapostproc.so"],
         },
     },
@@ -6201,7 +6205,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.gs.sm8350.so"],
         },
     },
@@ -6219,7 +6223,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so"],
         },
     },
@@ -6237,7 +6241,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@1.0.so"],
         },
     },
@@ -6255,7 +6259,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.data.lce@1.0.so"],
         },
     },
@@ -6273,7 +6277,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.gs.kamorta.so"],
         },
     },
@@ -6291,7 +6295,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libjnihelper.so"],
         },
     },
@@ -6309,7 +6313,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so"],
         },
     },
@@ -6327,7 +6331,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmialgoengine.so"],
         },
     },
@@ -6345,7 +6349,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libbluetooth_audio_session_qti.so"],
         },
     },
@@ -6363,7 +6367,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsecureui.so"],
         },
     },
@@ -6381,7 +6385,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so"],
         },
     },
@@ -6399,7 +6403,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libhexagon_nn_stub.so"],
         },
     },
@@ -6417,7 +6421,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libft2vendor.so"],
         },
     },
@@ -6435,7 +6439,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.fusion.so"],
         },
     },
@@ -6453,7 +6457,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
         },
     },
@@ -6471,7 +6475,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/qcrilMarshal.so"],
         },
     },
@@ -6489,7 +6493,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so"],
         },
     },
@@ -6507,7 +6511,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so"],
         },
     },
@@ -6525,7 +6529,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1.so"],
         },
     },
@@ -6543,7 +6547,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so"],
         },
     },
@@ -6561,7 +6565,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcvpcpuRev_skel.so"],
         },
     },
@@ -6579,7 +6583,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so"],
         },
     },
@@ -6597,7 +6601,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcdsprpc.so"],
         },
     },
@@ -6615,7 +6619,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so"],
         },
     },
@@ -6633,7 +6637,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libwms.so"],
         },
     },
@@ -6651,7 +6655,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOpenCL.so"],
         },
     },
@@ -6669,7 +6673,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/unnhal-acc-common.so"],
         },
     },
@@ -6687,7 +6691,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcrilNrQtiMutex.so"],
         },
     },
@@ -6705,7 +6709,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libarcsoft_portrait_lighting.so"],
         },
     },
@@ -6723,7 +6727,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libaoa.so"],
         },
     },
@@ -6741,7 +6745,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmctfengine_stub.so"],
         },
     },
@@ -6759,7 +6763,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdataitems.so"],
         },
     },
@@ -6777,7 +6781,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqdma_file_agent.so"],
         },
     },
@@ -6795,7 +6799,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcbor.so"],
         },
     },
@@ -6813,7 +6817,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libthreadutils.so"],
         },
     },
@@ -6831,7 +6835,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so"],
         },
     },
@@ -6849,7 +6853,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so"],
         },
     },
@@ -6867,7 +6871,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/liblearningmodule.so"],
         },
     },
@@ -6885,7 +6889,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.display.color@1.3.so"],
         },
     },
@@ -6903,7 +6907,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libssd.so"],
         },
     },
@@ -6921,7 +6925,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/librcc.so"],
         },
     },
@@ -6939,7 +6943,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so"],
         },
     },
@@ -6957,7 +6961,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libnlnetmgr.so"],
         },
     },
@@ -6975,7 +6979,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libizat_core.so"],
         },
     },
@@ -6993,7 +6997,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libpn557_fw.so"],
         },
     },
@@ -7011,7 +7015,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/qtiril-utils.so"],
         },
     },
@@ -7029,7 +7033,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqmi_csi.so"],
         },
     },
@@ -7047,7 +7051,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.data.mwqem@1.0.so"],
         },
     },
@@ -7065,7 +7069,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so"],
         },
     },
@@ -7083,7 +7087,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdsi_netctrl.so"],
         },
     },
@@ -7101,7 +7105,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdpps.so"],
         },
     },
@@ -7119,7 +7123,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so"],
         },
     },
@@ -7137,7 +7141,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.latency@2.1.so"],
         },
     },
@@ -7155,7 +7159,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/unnhal-acc-gpu.so"],
         },
     },
@@ -7173,7 +7177,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libkeymasterprovision.so"],
         },
     },
@@ -7191,7 +7195,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libxtadapter.so"],
         },
     },
@@ -7209,7 +7213,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.generic.so"],
         },
     },
@@ -7227,7 +7231,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libllvm-qcom.so"],
         },
     },
@@ -7245,7 +7249,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.display.color@1.1.so"],
         },
     },
@@ -7263,7 +7267,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libwvhidl.so"],
         },
     },
@@ -7281,7 +7285,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libscveObjectTracker_stub.so"],
         },
     },
@@ -7299,7 +7303,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdlbdsservice.so"],
         },
     },
@@ -7317,7 +7321,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmdmdetect.so"],
         },
     },
@@ -7335,7 +7339,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so"],
         },
     },
@@ -7353,7 +7357,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/lib-imsSDP.so"],
         },
     },
@@ -7371,7 +7375,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libpdnotifier.so"],
         },
     },
@@ -7389,7 +7393,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.nxp.nxpnfclegacy@1.0.so"],
         },
     },
@@ -7407,7 +7411,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.data.factory@2.3.so"],
         },
     },
@@ -7425,7 +7429,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsnapdragoncolor-manager.so"],
         },
     },
@@ -7443,7 +7447,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/lib-imsxml.so"],
         },
     },
@@ -7461,7 +7465,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.mcx.linearmapper.so"],
         },
     },
@@ -7479,7 +7483,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libaudio_log_utils.so"],
         },
     },
@@ -7497,7 +7501,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmmcamera_pdpc.so"],
         },
     },
@@ -7515,7 +7519,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@1.1.so"],
         },
     },
@@ -7533,7 +7537,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libI420colorconvert.so"],
         },
     },
@@ -7551,7 +7555,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libgf_ca.so"],
         },
     },
@@ -7569,7 +7573,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libril-qcril-hook-oem.so"],
         },
     },
@@ -7587,7 +7591,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libizat_client_api.so"],
         },
     },
@@ -7605,7 +7609,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so"],
         },
     },
@@ -7623,7 +7627,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libadsprpc.so"],
         },
     },
@@ -7641,7 +7645,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOmxAmrDec.so"],
         },
     },
@@ -7659,7 +7663,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so"],
         },
     },
@@ -7677,7 +7681,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdiag.so"],
         },
     },
@@ -7695,7 +7699,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.latency@2.0.so"],
         },
     },
@@ -7713,7 +7717,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/liblocationservice_glue.so"],
         },
     },
@@ -7731,7 +7735,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.hdr.so"],
         },
     },
@@ -7749,7 +7753,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libwa_widelens_undistort.so"],
         },
     },
@@ -7767,7 +7771,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libaudioparsers.so"],
         },
     },
@@ -7785,7 +7789,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libril-db.so"],
         },
     },
@@ -7803,7 +7807,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.nxp.nxpnfc@2.0.so"],
         },
     },
@@ -7821,7 +7825,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libgcs-calwrapper.so"],
         },
     },
@@ -7839,7 +7843,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so"],
         },
     },
@@ -7857,7 +7861,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.statsregeneration.so"],
         },
     },
@@ -7875,7 +7879,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcodec2_mockfilter.so"],
         },
     },
@@ -7893,7 +7897,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so"],
         },
     },
@@ -7911,7 +7915,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/lib-imsqimf.so"],
         },
     },
@@ -7929,7 +7933,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so"],
         },
     },
@@ -7947,7 +7951,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.qcfa.so"],
         },
     },
@@ -7965,7 +7969,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libscveObjectTracker.so"],
         },
     },
@@ -7983,7 +7987,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqti-perfd.so"],
         },
     },
@@ -8001,7 +8005,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcneoplookup.so"],
         },
     },
@@ -8019,7 +8023,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libslimclient.so"],
         },
     },
@@ -8037,7 +8041,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdisplayskuutils.so"],
         },
     },
@@ -8055,7 +8059,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcrilNrQtiBus.so"],
         },
     },
@@ -8073,7 +8077,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcdsp_default_listener.so"],
         },
     },
@@ -8091,7 +8095,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libbt-hidlclient.so"],
         },
     },
@@ -8109,7 +8113,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcpion.so"],
         },
     },
@@ -8127,7 +8131,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/qcrild_libqcrilnrutils.so"],
         },
     },
@@ -8145,7 +8149,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so"],
         },
     },
@@ -8163,7 +8167,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsnsdiaglog.so"],
         },
     },
@@ -8181,7 +8185,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmmcamera_faceproc2.so"],
         },
     },
@@ -8199,7 +8203,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdsutils.so"],
         },
     },
@@ -8217,7 +8221,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libGPreqcancel_svc.so"],
         },
     },
@@ -8235,7 +8239,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdpmqmihal.so"],
         },
     },
@@ -8253,7 +8257,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libFlacSwDec.so"],
         },
     },
@@ -8271,7 +8275,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libalhLDC.so"],
         },
     },
@@ -8289,7 +8293,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libwa_rtdof.so"],
         },
     },
@@ -8307,7 +8311,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.0.so"],
         },
     },
@@ -8325,7 +8329,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libscveObjectSegmentation_stub.so"],
         },
     },
@@ -8343,7 +8347,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/liblowi_client.so"],
         },
     },
@@ -8361,7 +8365,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.fingerprints.extension@1.0.so"],
         },
     },
@@ -8379,7 +8383,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libminksocket.so"],
         },
     },
@@ -8397,7 +8401,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOmxAmrwbplusDec.so"],
         },
     },
@@ -8415,7 +8419,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libtinyxml2_1.so"],
         },
     },
@@ -8433,7 +8437,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libxml.so"],
         },
     },
@@ -8451,7 +8455,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/deviceInfoServiceModuleNr.so"],
         },
     },
@@ -8469,7 +8473,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so"],
         },
     },
@@ -8487,7 +8491,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamxfacialfeatures.so"],
         },
     },
@@ -8505,7 +8509,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so"],
         },
     },
@@ -8523,7 +8527,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.stats.common.so"],
         },
     },
@@ -8541,7 +8545,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libc++_shared.so"],
         },
     },
@@ -8559,7 +8563,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/sensors.elliptic.so"],
         },
     },
@@ -8577,7 +8581,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcvp_common.so"],
         },
     },
@@ -8595,7 +8599,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libgcs-ipc.so"],
         },
     },
@@ -8613,7 +8617,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so"],
         },
     },
@@ -8631,7 +8635,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libarcsoft_portrait_lighting_c.so"],
         },
     },
@@ -8649,7 +8653,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.dsp@1.0.so"],
         },
     },
@@ -8667,7 +8671,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so"],
         },
     },
@@ -8685,7 +8689,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmmcamera_mfnr_t4.so"],
         },
     },
@@ -8703,7 +8707,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so"],
         },
     },
@@ -8721,7 +8725,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/lib-imsvtcore.so"],
         },
     },
@@ -8739,7 +8743,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so"],
         },
     },
@@ -8757,7 +8761,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqmi.so"],
         },
     },
@@ -8775,7 +8779,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOmxApeDec.so"],
         },
     },
@@ -8793,7 +8797,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcci_legacy.so"],
         },
     },
@@ -8811,7 +8815,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsysmon_cdsp_skel.so"],
         },
     },
@@ -8829,7 +8833,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libbitmlenginev2.so"],
         },
     },
@@ -8847,7 +8851,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcdfw_remote_api.so"],
         },
     },
@@ -8865,7 +8869,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so"],
         },
     },
@@ -8883,7 +8887,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so"],
         },
     },
@@ -8901,7 +8905,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamxexternalformatutils.so"],
         },
     },
@@ -8919,7 +8923,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libremosaiclib.so"],
         },
     },
@@ -8937,7 +8941,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.gs.cedros.so"],
         },
     },
@@ -8955,7 +8959,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqti-utils.so"],
         },
     },
@@ -8973,7 +8977,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.mux.so"],
         },
     },
@@ -8991,7 +8995,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsdm-colormgr-algo.so"],
         },
     },
@@ -9009,7 +9013,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so"],
         },
     },
@@ -9027,7 +9031,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.memcpy.so"],
         },
     },
@@ -9045,7 +9049,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so"],
         },
     },
@@ -9063,7 +9067,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsdsprpc.so"],
         },
     },
@@ -9081,7 +9085,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/lib-imsservice.so"],
         },
     },
@@ -9099,7 +9103,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqmi_client_qmux.so"],
         },
     },
@@ -9117,7 +9121,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.rtmcx.so"],
         },
     },
@@ -9135,7 +9139,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsns_registry_skel.so"],
         },
     },
@@ -9153,7 +9157,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqti-iopd.so"],
         },
     },
@@ -9171,7 +9175,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.data.slm@1.0.so"],
         },
     },
@@ -9189,7 +9193,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.qcriNvOpt@1.0.so"],
         },
     },
@@ -9207,7 +9211,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqti-iopd-client.so"],
         },
     },
@@ -9225,7 +9229,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.ml.so"],
         },
     },
@@ -9243,7 +9247,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libril-qc-radioconfig.so"],
         },
     },
@@ -9261,7 +9265,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.2.so"],
         },
     },
@@ -9279,7 +9283,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/ls_client.so"],
         },
     },
@@ -9297,7 +9301,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libQTEEConnector_listener.so"],
         },
     },
@@ -9315,7 +9319,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/liblqe.so"],
         },
     },
@@ -9333,7 +9337,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsdmextension.so"],
         },
     },
@@ -9351,7 +9355,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libvidhance.so"],
         },
     },
@@ -9369,7 +9373,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so"],
         },
     },
@@ -9387,7 +9391,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libminkdescriptor.so"],
         },
     },
@@ -9405,7 +9409,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libApeSwDec.so"],
         },
     },
@@ -9423,7 +9427,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcneqmiutils.so"],
         },
     },
@@ -9441,7 +9445,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so"],
         },
     },
@@ -9459,7 +9463,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so"],
         },
     },
@@ -9477,7 +9481,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libwa_refocus.so"],
         },
     },
@@ -9495,7 +9499,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.settings.kamorta.so"],
         },
     },
@@ -9513,7 +9517,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcrilNr.so"],
         },
     },
@@ -9531,7 +9535,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOmxApeDecSw.so"],
         },
     },
@@ -9549,7 +9553,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqll10.so"],
         },
     },
@@ -9567,7 +9571,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/ese_spi_nxp.so"],
         },
     },
@@ -9585,7 +9589,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/liblowi_wifihal.so"],
         },
     },
@@ -9603,7 +9607,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.rawsupernight.so"],
         },
     },
@@ -9621,7 +9625,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcodec2_platform.so"],
         },
     },
@@ -9639,7 +9643,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so"],
         },
     },
@@ -9657,7 +9661,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libstagefrightdolby.so"],
         },
     },
@@ -9675,7 +9679,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqdp.so"],
         },
     },
@@ -9693,7 +9697,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libgnsspps.so"],
         },
     },
@@ -9711,7 +9715,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/unnhal-acc-hvx.so"],
         },
     },
@@ -9729,7 +9733,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libops.so"],
         },
     },
@@ -9747,7 +9751,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmm-color-convertor.so"],
         },
     },
@@ -9765,7 +9769,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdrmtime.so"],
         },
     },
@@ -9783,7 +9787,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.2.so"],
         },
     },
@@ -9801,7 +9805,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqdi.so"],
         },
     },
@@ -9819,7 +9823,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libssc_default_listener.so"],
         },
     },
@@ -9837,7 +9841,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmmcamera_bestats.so"],
         },
     },
@@ -9855,7 +9859,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.diaghal@1.0.so"],
         },
     },
@@ -9873,7 +9877,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmeters.so"],
         },
     },
@@ -9891,7 +9895,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsdm-color.so"],
         },
     },
@@ -9909,7 +9913,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.1.so"],
         },
     },
@@ -9927,7 +9931,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcrilNrFramework.so"],
         },
     },
@@ -9945,7 +9949,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so"],
         },
     },
@@ -9963,7 +9967,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.settings.kodiak.so"],
         },
     },
@@ -9981,7 +9985,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqmiextservices.so"],
         },
     },
@@ -9999,7 +10003,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsns_low_lat_stream_stub.so"],
         },
     },
@@ -10017,7 +10021,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libc2d30_bltlib.so"],
         },
     },
@@ -10035,7 +10039,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libloc_api_v02.so"],
         },
     },
@@ -10053,7 +10057,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libanc_dc_base.so"],
         },
     },
@@ -10071,7 +10075,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.anchorsync.so"],
         },
     },
@@ -10089,7 +10093,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqmiservices.so"],
         },
     },
@@ -10107,7 +10111,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so"],
         },
     },
@@ -10125,7 +10129,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so"],
         },
     },
@@ -10143,7 +10147,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsensorcal.so"],
         },
     },
@@ -10161,7 +10165,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdisp-aba.so"],
         },
     },
@@ -10179,7 +10183,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqdcm-mode-parser.so"],
         },
     },
@@ -10197,7 +10201,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamxswprocessalgo.so"],
         },
     },
@@ -10215,7 +10219,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.rawhdr.so"],
         },
     },
@@ -10233,7 +10237,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so"],
         },
     },
@@ -10251,7 +10255,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqrtr.so"],
         },
     },
@@ -10269,7 +10273,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.settings.sm8350.so"],
         },
     },
@@ -10287,7 +10291,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsl_fp_impl.so"],
         },
     },
@@ -10305,7 +10309,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libstagefright_soft_ac4dec.so"],
         },
     },
@@ -10323,7 +10327,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so"],
         },
     },
@@ -10341,7 +10345,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqti-util.so"],
         },
     },
@@ -10359,7 +10363,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so"],
         },
     },
@@ -10377,7 +10381,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamxtintlessalgo.so"],
         },
     },
@@ -10395,7 +10399,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcodec2_basecodec.so"],
         },
     },
@@ -10413,7 +10417,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.trustedui@1.1.so"],
         },
     },
@@ -10431,7 +10435,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcc_file_agent.so"],
         },
     },
@@ -10449,7 +10453,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmlipay@1.1.so"],
         },
     },
@@ -10467,7 +10471,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libipebpsstriping.so"],
         },
     },
@@ -10485,7 +10489,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqmi_csvt_srvc.so"],
         },
     },
@@ -10503,7 +10507,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqtigef.so"],
         },
     },
@@ -10521,7 +10525,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so"],
         },
     },
@@ -10539,7 +10543,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcom.qti.chinodeutils.so"],
         },
     },
@@ -10557,7 +10561,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqmi_common_so.so"],
         },
     },
@@ -10575,7 +10579,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/btaudio_offload_if.so"],
         },
     },
@@ -10593,7 +10597,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libarcsoft_hdr_detection.so"],
         },
     },
@@ -10611,7 +10615,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so"],
         },
     },
@@ -10629,7 +10633,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsdm-diag.so"],
         },
     },
@@ -10647,7 +10651,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/lib-rtpcore.so"],
         },
     },
@@ -10665,7 +10669,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsns_device_mode_stub.so"],
         },
     },
@@ -10683,7 +10687,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqmi_legacy.so"],
         },
     },
@@ -10701,7 +10705,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmpbase.so"],
         },
     },
@@ -10719,7 +10723,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmmcamera_faceproc.so"],
         },
     },
@@ -10737,7 +10741,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libgcs.so"],
         },
     },
@@ -10755,7 +10759,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.serializer.so"],
         },
     },
@@ -10773,7 +10777,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libGPQTEEC_vendor.so"],
         },
     },
@@ -10791,7 +10795,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.frameselect.so"],
         },
     },
@@ -10809,7 +10813,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqisl.so"],
         },
     },
@@ -10827,7 +10831,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcmaputils.so"],
         },
     },
@@ -10845,7 +10849,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOmxAacDec.so"],
         },
     },
@@ -10863,7 +10867,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libremosaic_wrapper.so"],
         },
     },
@@ -10881,7 +10885,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libbase64.so"],
         },
     },
@@ -10899,7 +10903,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/lib-rtpsl.so"],
         },
     },
@@ -10917,7 +10921,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.display.color@1.2.so"],
         },
     },
@@ -10935,7 +10939,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOmxEvrcDec.so"],
         },
     },
@@ -10953,7 +10957,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libHalSuperSensorServer.so"],
         },
     },
@@ -10971,7 +10975,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.display.postproc@1.0.so"],
         },
     },
@@ -10989,7 +10993,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqllengine.so"],
         },
     },
@@ -11007,7 +11011,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libbtnv.so"],
         },
     },
@@ -11025,7 +11029,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libaudioalsa.so"],
         },
     },
@@ -11043,7 +11047,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmulawdec.so"],
         },
     },
@@ -11061,7 +11065,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so"],
         },
     },
@@ -11079,7 +11083,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libalLDC.so"],
         },
     },
@@ -11097,7 +11101,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so"],
         },
     },
@@ -11115,7 +11119,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libarcsoft_low_light_hdr.so"],
         },
     },
@@ -11133,7 +11137,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/liblbs_core.so"],
         },
     },
@@ -11151,7 +11155,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libloc_socket.so"],
         },
     },
@@ -11169,7 +11173,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libpdmapper.so"],
         },
     },
@@ -11187,7 +11191,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libswregistrationalgo.so"],
         },
     },
@@ -11205,7 +11209,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libnetmgr_rmnet_ext.so"],
         },
     },
@@ -11223,7 +11227,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so"],
         },
     },
@@ -11241,7 +11245,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libscveCommon.so"],
         },
     },
@@ -11259,7 +11263,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libfastcvopt.so"],
         },
     },
@@ -11277,7 +11281,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.data.factory@2.2.so"],
         },
     },
@@ -11295,7 +11299,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcne.so"],
         },
     },
@@ -11313,7 +11317,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so"],
         },
     },
@@ -11331,7 +11335,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/nfc_nci_nxp.so"],
         },
     },
@@ -11349,7 +11353,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/liboemcrypto.so"],
         },
     },
@@ -11367,7 +11371,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOmxAlacDecSw.so"],
         },
     },
@@ -11385,7 +11389,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.trustedui@1.0.so"],
         },
     },
@@ -11403,7 +11407,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libperfconfig.so"],
         },
     },
@@ -11421,7 +11425,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/lib-imsrcsservice.so"],
         },
     },
@@ -11439,7 +11443,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so"],
         },
     },
@@ -11457,7 +11461,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/lib-rtpcommon.so"],
         },
     },
@@ -11475,7 +11479,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libnetmgr.so"],
         },
     },
@@ -11493,7 +11497,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libSecureUILib.so"],
         },
     },
@@ -11511,7 +11515,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsoc_helper_jni.so"],
         },
     },
@@ -11529,7 +11533,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.gs.mannar.so"],
         },
     },
@@ -11547,7 +11551,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.ims.callcapability@1.0.so"],
         },
     },
@@ -11565,7 +11569,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.nxp.eventprocessor@1.0.so"],
         },
     },
@@ -11583,7 +11587,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libwqe.so"],
         },
     },
@@ -11601,7 +11605,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libkeymasterdeviceutils.so"],
         },
     },
@@ -11619,7 +11623,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so"],
         },
     },
@@ -11637,7 +11641,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmmcamera_mfnr.so"],
         },
     },
@@ -11655,7 +11659,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libscveCommon_stub.so"],
         },
     },
@@ -11673,7 +11677,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libSuperSensorCPU.so"],
         },
     },
@@ -11691,7 +11695,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so"],
         },
     },
@@ -11709,7 +11713,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcodec2_core.so"],
         },
     },
@@ -11727,7 +11731,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmibokeh_712.so"],
         },
     },
@@ -11745,7 +11749,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/librcmask.so"],
         },
     },
@@ -11763,7 +11767,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcapiv2vop.so"],
         },
     },
@@ -11781,7 +11785,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdng_sdk2vendor.so"],
         },
     },
@@ -11799,7 +11803,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/liblistensoundmodel2.so"],
         },
     },
@@ -11817,7 +11821,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libwa_depth.so"],
         },
     },
@@ -11835,7 +11839,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so"],
         },
     },
@@ -11853,7 +11857,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdeccfg.so"],
         },
     },
@@ -11871,7 +11875,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.settings.sdm865.so"],
         },
     },
@@ -11889,7 +11893,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsns_fastRPC_util.so"],
         },
     },
@@ -11907,7 +11911,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsdm-disp-vndapis.so"],
         },
     },
@@ -11925,7 +11929,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libOmxMpeghEncSw.so"],
         },
     },
@@ -11943,7 +11947,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libssrec.so"],
         },
     },
@@ -11961,7 +11965,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.factory@1.1.so"],
         },
     },
@@ -11979,7 +11983,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libllvm-glnext.so"],
         },
     },
@@ -11997,7 +12001,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libperipheral_client.so"],
         },
     },
@@ -12015,7 +12019,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsnapdragoncolor-qdcm.so"],
         },
     },
@@ -12033,7 +12037,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@3.0.so"],
         },
     },
@@ -12051,7 +12055,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdisplayqos.so"],
         },
     },
@@ -12069,7 +12073,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libkernelmanager.so"],
         },
     },
@@ -12087,7 +12091,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so"],
         },
     },
@@ -12105,7 +12109,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamxqsatalgo.so"],
         },
     },
@@ -12123,7 +12127,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@4.0.so"],
         },
     },
@@ -12141,7 +12145,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqtikeymaster4.so"],
         },
     },
@@ -12159,7 +12163,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libvideofilter_only.so"],
         },
     },
@@ -12177,7 +12181,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libaidenoiserv2.so"],
         },
     },
@@ -12195,7 +12199,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so"],
         },
     },
@@ -12213,7 +12217,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@4.0-service.so"],
         },
     },
@@ -12231,7 +12235,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/hal_libnfc.so"],
         },
     },
@@ -12249,7 +12253,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so"],
         },
     },
@@ -12267,7 +12271,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/librilqmimiscservices.so"],
         },
     },
@@ -12285,7 +12289,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libos.so"],
         },
     },
@@ -12303,7 +12307,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libarcsoft_beautyshot.so"],
         },
     },
@@ -12321,7 +12325,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamera_scene.so"],
         },
     },
@@ -12339,7 +12343,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so"],
         },
     },
@@ -12357,7 +12361,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so"],
         },
     },
@@ -12375,7 +12379,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/librpmb.so"],
         },
     },
@@ -12393,7 +12397,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so"],
         },
     },
@@ -12411,7 +12415,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsoc_helper.so"],
         },
     },
@@ -12429,7 +12433,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqseed3.so"],
         },
     },
@@ -12447,7 +12451,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so"],
         },
     },
@@ -12465,7 +12469,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/liba2dpoffload.so"],
         },
     },
@@ -12483,7 +12487,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libtime_genoff.so"],
         },
     },
@@ -12501,7 +12505,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libofflinelog.so"],
         },
     },
@@ -12519,7 +12523,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqrtrclient.so"],
         },
     },
@@ -12537,7 +12541,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/sensors.touch.detect.so"],
         },
     },
@@ -12555,7 +12559,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcodec2_v4l2codec.so"],
         },
     },
@@ -12573,7 +12577,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libbitmlengine.so"],
         },
     },
@@ -12591,7 +12595,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdrmfs.so"],
         },
     },
@@ -12609,7 +12613,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libidl.so"],
         },
     },
@@ -12627,7 +12631,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libscveObjectSegmentation.so"],
         },
     },
@@ -12645,7 +12649,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamxstatscore.so"],
         },
     },
@@ -12663,7 +12667,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so"],
         },
     },
@@ -12681,7 +12685,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so"],
         },
     },
@@ -12699,7 +12703,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.gs.sdm865.so"],
         },
     },
@@ -12717,7 +12721,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/sensors.ssc.so"],
         },
     },
@@ -12735,7 +12739,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcodec2_base.so"],
         },
     },
@@ -12753,7 +12757,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libperfioctl.so"],
         },
     },
@@ -12771,7 +12775,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libbatterylistener.so"],
         },
     },
@@ -12789,7 +12793,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libhdcpsrm.so"],
         },
     },
@@ -12807,7 +12811,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsystem_health_mon.so"],
         },
     },
@@ -12825,7 +12829,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libssc.so"],
         },
     },
@@ -12843,7 +12847,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libsubsystem_control.so"],
         },
     },
@@ -12861,7 +12865,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libtrustedapploader.so"],
         },
     },
@@ -12879,7 +12883,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamxswispiqmodule.so"],
         },
     },
@@ -12897,7 +12901,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libadsp_default_listener.so"],
         },
     },
@@ -12915,7 +12919,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so"],
         },
     },
@@ -12933,7 +12937,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.3.so"],
         },
     },
@@ -12951,7 +12955,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libqcrilNrLogger.so"],
         },
     },
@@ -12969,7 +12973,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamera_nn_stub.so"],
         },
     },
@@ -12987,7 +12991,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so"],
         },
     },
@@ -13005,7 +13009,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.derivedoffline.so"],
         },
     },
@@ -13023,7 +13027,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libStDrvInt.so"],
         },
     },
@@ -13041,7 +13045,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so"],
         },
     },
@@ -13059,7 +13063,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.ims.factory@1.0.so"],
         },
     },
@@ -13077,7 +13081,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamxfdalgo.so"],
         },
     },
@@ -13095,7 +13099,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.trustedui@1.2.so"],
         },
     },
@@ -13113,7 +13117,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmm-hdcpmgr.so"],
         },
     },
@@ -13131,7 +13135,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so"],
         },
     },
@@ -13149,7 +13153,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libaidenoiser.so"],
         },
     },
@@ -13167,7 +13171,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.feature2.stub.so"],
         },
     },
@@ -13185,7 +13189,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmmcamera_lscv35.so"],
         },
     },
@@ -13203,7 +13207,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libarcsoft_dualcam_refocus_image.so"],
         },
     },
@@ -13221,7 +13225,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/com.qti.chiusecaseselector.so"],
         },
     },
@@ -13239,7 +13243,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libaudioconfigstore.so"],
         },
     },
@@ -13257,7 +13261,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.gnss@2.0.so"],
         },
     },
@@ -13275,7 +13279,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libgoodixhwfingerprint.so"],
         },
     },
@@ -13293,7 +13297,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so"],
         },
     },
@@ -13311,7 +13315,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmdsprpc.so"],
         },
     },
@@ -13329,7 +13333,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libmmosal.so"],
         },
     },
@@ -13347,7 +13351,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libtfestriping.so"],
         },
     },
@@ -13365,7 +13369,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.nxp.nxpese@1.0.so"],
         },
     },
@@ -13383,7 +13387,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libalCFR.so"],
         },
     },
@@ -13401,7 +13405,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.eid@1.0.so"],
         },
     },
@@ -13419,7 +13423,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.2.so"],
         },
     },
@@ -13437,7 +13441,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libcamxifestriping.so"],
         },
     },
@@ -13455,7 +13459,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so"],
         },
     },
@@ -13473,7 +13477,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so"],
         },
     },
@@ -13491,7 +13495,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libbluetooth_audio_session_qti_2_1.so"],
         },
     },
@@ -13509,7 +13513,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdisplayconfig.qti.so"],
         },
     },
@@ -13527,7 +13531,7 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
+        android_arm64: {
             srcs: ["proprietary/vendor/lib64/libdapparamstorage.so"],
         },
     },
@@ -13536,5 +13540,16 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+
+//Subfolders of lib64
+
+
+
+
+
+
+
+
+
 
 
