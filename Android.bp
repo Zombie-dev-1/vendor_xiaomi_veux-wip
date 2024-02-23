@@ -306,7 +306,6 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-
 prebuilt_etc_xml {
 	name: "vendor.xiaomi.hardware.citsensorservice@1.1-service",
 	owner: "xiaomi",
